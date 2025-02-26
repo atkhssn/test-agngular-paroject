@@ -1,0 +1,17 @@
+npm install -g @angular/cli@latest
+
+ng new my-angular-app --standalone
+
+ng build
+
+ng build --configuration=production
+
+ng serve --no-hmr --open
+
+ng serve --restart
+
+ng g c component-name --skip-tests
+
+npm install primeng @primeng/themes
+
+npm install primeicons
