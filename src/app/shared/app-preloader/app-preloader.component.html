@@ -1,0 +1,11 @@
+<div id="preloader" *ngIf="showPreloader()">
+  <div class="preloader-content">
+    <div class="d-flex align-items-center justify-content-center">
+      <div class="spinner-border" style="width: 20px; height: 20px;" aria-hidden="true"></div>
+      <p class="preloader-text ps-1" role="status">{{ currentText() }}</p>
+    </div>
+    <div class="progress-bar">
+      <div class="progress-fill" [style.width]="progress() + '%'"></div>
+    </div>
+  </div>
+</div>

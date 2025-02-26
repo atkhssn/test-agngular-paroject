@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { Title } from '@angular/platform-browser';
+import { AppPreloaderComponent } from "../../shared/app-preloader/app-preloader.component";
 
 @Component({
   selector: 'app-auth-layout',
-  imports: [],
+  imports: [AppPreloaderComponent],
   templateUrl: './auth-layout.component.html',
   styleUrl: './auth-layout.component.css'
 })
