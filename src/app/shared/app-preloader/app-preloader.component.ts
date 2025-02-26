@@ -29,6 +29,6 @@ export class AppPreloaderComponent {
         clearInterval(interval);
         setTimeout(() => this.showPreloader.set(false), 500);
       }
-    }, 500000);
+    }, 500);
   }
 }
